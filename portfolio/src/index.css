@@ -1,0 +1,58 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg,
+    #0b0b1f,  
+    #1a0b3f,  
+    #0b1a2f,  
+    #2f0b1a,  
+    #1a2f0b   
+  );
+  background-size: 200% 200%; 
+  animation: vibrantGradient 25s ease-in-out infinite alternate;
+  color: #fff; 
+  overflow-x: hidden;
+}
+
+@keyframes vibrantGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #fff; 
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffd700; 
+}
+
+
+.section {
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 60px 30px;
+  border-radius: 15px;
+  margin: 20px auto;
+}
