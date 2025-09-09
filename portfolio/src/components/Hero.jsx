@@ -115,7 +115,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Hero Image */}
       <div className="hero-image">
         <img src="/avinash.jpg" alt="Avinash Kumar" />
       </div>
