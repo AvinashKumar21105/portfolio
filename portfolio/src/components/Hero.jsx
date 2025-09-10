@@ -13,7 +13,6 @@ const Hero = () => {
 
   return (
     <section className="hero">
-      {/* Animated Particles */}
       <Particles
         id="tsparticles"
         className="particles"
@@ -71,7 +70,7 @@ const Hero = () => {
         <div className="hero-footer">
           <div className="hero-buttons">
             <a href="/resume.pdf" download className="download-btn">
-              Download My Resume
+              Download Resume
             </a>
           </div>
 
